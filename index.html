@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Stock To-do List</title>
+    <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+    <h1>To Do List</h1>
+    <div class="container">
+        <div>
+            <input type="text" id="newitem" placeholder="new to-do item">
+            <button id="add">Add</button>
+        </div>
+        <div id="todolist"></div> <!-- Separate container for the task list -->
+        <div><span id="all">All</span>&nbsp;&nbsp;
+             <span id="uncompleted">Uncompleted</span>&nbsp;&nbsp;
+             <span id="completed">Completed</span>
+        </div>
+        <div id="pending-count">Pending tasks: 0</div>
+    </div>
+    <script src="script.js" charset="utf-8"></script>
+</body>
+</html>
